@@ -1,19 +1,21 @@
 package com.platinum.CtaCorriente;
 
-import static org.testng.AssertJUnit.assertNotNull;
-import static org.testng.AssertJUnit.assertTrue;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
-import org.testng.annotations.Test;
 
 import java.sql.Connection;
 import java.sql.SQLException;
 
-import com.platinum.Conector.ConectorDB;
 import com.platinum.DAO.UsuarioDAO;
 import com.platinum.DTO.Usuario;
 
 public class UsuarioTest {
+	
+	
+	public UsuarioTest() {
+		String testName;
+	}
+
 	private static UsuarioDAO usuarioDAO;
     private static Connection conn;
 	

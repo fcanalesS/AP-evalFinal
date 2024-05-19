@@ -3,7 +3,6 @@ package com.platinum.CtaCorriente;
 import static org.testng.AssertJUnit.assertNotNull;
 import static org.testng.AssertJUnit.assertTrue;
 import org.testng.annotations.Test;
-import org.testng.annotations.Test;
 
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -11,6 +10,12 @@ import java.sql.SQLException;
 import com.platinum.Conector.ConectorDB;
 
 public class ConectorDBTest {
+	
+	
+	public ConectorDBTest() {
+		String testName;
+	}
+
 	private static Connection conn;
 	
 	@Test
