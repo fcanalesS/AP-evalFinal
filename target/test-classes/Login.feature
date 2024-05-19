@@ -9,4 +9,3 @@ Feature: Login de Usuario
     Given Un usuario va a la página de login
     When El usuario ingresa el nombre de usuario "user1" y la contraseña "incorrecta"
     Then El usuario no debería poder acceder
-  

@@ -1,37 +1,17 @@
 package com.platinum.CtaCorriente;
 
-import junit.framework.TestCase;
+import static org.testng.AssertJUnit.assertNotNull;
+import static org.testng.AssertJUnit.assertTrue;
+import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 
 import java.sql.Connection;
 import java.sql.SQLException;
 
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
-
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertTrue;
-
 import com.platinum.Conector.ConectorDB;
 
-public class ConectorDBTest extends TestCase {
+public class ConectorDBTest {
 	private static Connection conn;
-	
-	@BeforeClass
-	public static void setUpClass() {
-	}
-	
-	@AfterClass
-	public static void tearDownClass() throws SQLException {
-	}
-	
-	@Before
-	public void setUp() {}
-	
-	@After
-	public void tearDown() {}
 	
 	@Test
     public void testConnectionNotNull() throws SQLException {

@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-19T17:06:01 CLT" name="Surefire suite" finished-at="2024-05-19T17:06:01 CLT" duration-ms="213">
+  <suite started-at="2024-05-19T18:54:25 CLT" name="Suite" finished-at="2024-05-19T18:54:26 CLT" duration-ms="179">
     <groups>
     </groups>
-    <test started-at="2024-05-19T17:06:01 CLT" name="Surefire test" finished-at="2024-05-19T17:06:01 CLT" duration-ms="213">
+    <test started-at="2024-05-19T18:54:25 CLT" name="Test" finished-at="2024-05-19T18:54:26 CLT" duration-ms="179">
       <class name="com.platinum.CtaCorriente.AppTest">
-        <test-method signature="testApp()" started-at="2024-05-19T17:06:01 CLT" name="testApp" finished-at="2024-05-19T17:06:01 CLT" duration-ms="3" status="PASS">
+        <test-method signature="testApp()[pri:0, instance:com.platinum.CtaCorriente.AppTest@ef9296d]" started-at="2024-05-19T18:54:25 CLT" name="testApp" finished-at="2024-05-19T18:54:25 CLT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testApp -->
       </class> <!-- com.platinum.CtaCorriente.AppTest -->
       <class name="com.platinum.CtaCorriente.UsuarioTest">
-        <test-method signature="testLoginCorrecto() throws java.sql.SQLException" started-at="2024-05-19T17:06:01 CLT" name="testLoginCorrecto" finished-at="2024-05-19T17:06:01 CLT" duration-ms="15" status="PASS">
+        <test-method signature="testLoginCorrecto()[pri:0, instance:com.platinum.CtaCorriente.UsuarioTest@69b2283a]" started-at="2024-05-19T18:54:25 CLT" name="testLoginCorrecto" finished-at="2024-05-19T18:54:26 CLT" duration-ms="147" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginCorrecto -->
-        <test-method signature="testLoginIncorrecto() throws java.sql.SQLException" started-at="2024-05-19T17:06:01 CLT" name="testLoginIncorrecto" finished-at="2024-05-19T17:06:01 CLT" duration-ms="14" status="PASS">
+        <test-method signature="testLoginIncorrecto()[pri:0, instance:com.platinum.CtaCorriente.UsuarioTest@69b2283a]" started-at="2024-05-19T18:54:26 CLT" name="testLoginIncorrecto" finished-at="2024-05-19T18:54:26 CLT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginIncorrecto -->
       </class> <!-- com.platinum.CtaCorriente.UsuarioTest -->
       <class name="com.platinum.CtaCorriente.ConectorDBTest">
-        <test-method signature="testMultipleConnections() throws java.sql.SQLException" started-at="2024-05-19T17:06:01 CLT" name="testMultipleConnections" finished-at="2024-05-19T17:06:01 CLT" duration-ms="114" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMultipleConnections -->
-        <test-method signature="testConnectionNotNull() throws java.sql.SQLException" started-at="2024-05-19T17:06:01 CLT" name="testConnectionNotNull" finished-at="2024-05-19T17:06:01 CLT" duration-ms="112" status="PASS">
+        <test-method signature="testConnectionNotNull()[pri:0, instance:com.platinum.CtaCorriente.ConectorDBTest@22a637e7]" started-at="2024-05-19T18:54:26 CLT" name="testConnectionNotNull" finished-at="2024-05-19T18:54:26 CLT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testConnectionNotNull -->
+        <test-method signature="testMultipleConnections()[pri:0, instance:com.platinum.CtaCorriente.ConectorDBTest@22a637e7]" started-at="2024-05-19T18:54:26 CLT" name="testMultipleConnections" finished-at="2024-05-19T18:54:26 CLT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultipleConnections -->
       </class> <!-- com.platinum.CtaCorriente.ConectorDBTest -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
